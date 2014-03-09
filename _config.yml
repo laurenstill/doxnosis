@@ -3,7 +3,7 @@ pygments: true
 permalink: /:title
 
 url:
-baseurl:
+baseurl: /doxnosis
 
 redcarpet:
   extensions: [strikethrough, tables]
