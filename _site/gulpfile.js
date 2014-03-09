@@ -17,7 +17,7 @@ gulp.task('scripts', function () {
       .pipe(coffee({ bare: true }).on('error', gutil.log))
       .pipe(uglify())
       .pipe(concat('main.js'))
-      .pipe(gulp.dest('.public/js'));
+      .pipe(gulp.dest('./public/js'));
 });
 
 gulp.task('stylesheets', function () {
